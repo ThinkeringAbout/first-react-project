@@ -1,0 +1,46 @@
+.Sidebar {
+    width: 29%;
+    height: calc(100% - 40px);
+    font-size: 15px;
+    border-radius: 15px;
+    background: linear-gradient(131deg, #dd03e4, #5611ec);
+    color: #fff;
+  }
+  
+.Sidebar__container {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .Sidebar a {
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.6s;
+  }
+
+  .Sidebar_link {
+    color: #fff;
+  }
+
+  .Sidebar a:hover {
+    border-radius: 0;
+    border-color: #fff;
+    box-shadow: 5px 5px 10px pink;
+  }
+
+  .active {
+    color: rgb(31, 4, 37);
+    background-color: #fff;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px pink;
+  }

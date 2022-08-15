@@ -1,0 +1,50 @@
+.mes_content {
+    flex-direction: column;
+    height: 850px;
+}
+
+.Messages_title {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.Message_box {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all ease 0.3s;
+}
+
+.Message_box:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    border-color: rgb(158, 14, 117);
+    box-shadow: 5px 5px 10px pink;
+}
+
+.Message_message {
+    width: 70%;
+    text-align: left;
+}
+
+.Message_user,
+.Message_message {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid black;
+    height: 40px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.Message_user {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+}
